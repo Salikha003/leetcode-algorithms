@@ -1,4 +1,4 @@
-class Solution:
+class Solutions:
     def countSubarrays(self, nums: List[int], k: int) -> int:
         count = res = left = 0
         m = max(nums)
