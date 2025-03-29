@@ -1,5 +1,5 @@
 from collections import Counter
-class Solutionsfdsfs:
+class Solution:
     def minOperations(self, nums: List[int]) -> int:
         l = Counter(nums).values()
         if min(l) == 1:
