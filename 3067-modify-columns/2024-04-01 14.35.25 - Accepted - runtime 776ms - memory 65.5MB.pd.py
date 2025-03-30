@@ -10,6 +10,3 @@ def modifySalaryColumns(employees: pd.DataFrame) -> pd.DataFrame:
     return employees
 
 
-def modifySalaryColumnss(employees: pd.DataFrame) -> pd.DataFrame:
-    employees.salary *= 2
-    return employees
