@@ -8,3 +8,8 @@ def modifySalaryColumn(employees: pd.DataFrame) -> pd.DataFrame:
 def modifySalaryColumns(employees: pd.DataFrame) -> pd.DataFrame:
     employees.salary *= 2
     return employees
+
+
+def modifySalaryColumnss(employees: pd.DataFrame) -> pd.DataFrame:
+    employees.salary *= 2
+    return employees
